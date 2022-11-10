@@ -1,2 +1,2 @@
-# travel-journal-
-this app is for displaying the places I travelled to.
+# travel-journal
+This app is for displaying the places I travelled to.
