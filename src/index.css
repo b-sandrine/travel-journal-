@@ -7,6 +7,12 @@
   --google-links-color: #918E9B;
 }
 
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body{
   font-family: 'Poppins',sans-serif;
   background-color: var(--google-links-color);
@@ -36,4 +42,74 @@ nav{
 
 .nav--text {
   margin: 25px 0 5px -20px;
+}
+
+.container {
+  width: 85%;
+  margin: 35px auto;
+  display: flex;
+}
+
+.card--image {
+  flex: 0 0 25%;
+  max-width: 25%;
+}
+
+.card--image img {
+  width: 126px;
+  height: 168.85px;
+  border-radius: 5px;
+}
+.description {
+  flex:  0 0 60%;
+  max-width: 60%;
+  margin-top: 20px;
+}
+
+.card--place {
+  display: flex;
+  justify-items: center;
+  font-size: 10.24px;
+  height: 12px;
+  margin-bottom: 5px;
+  flex: 0 0 70%;
+  max-width: 70%;
+}
+
+.card--place .card--icon {
+  color: var(--bg-nav);
+  margin-top: 2px;
+  margin-right:5px;
+}
+
+.card--place .card--title {
+  color: var(--text-default-color);
+  letter-spacing: 1px;
+  margin: 0 5px;
+}
+
+.card--place .card--link {
+  color: var(--google-links-color);
+}
+
+.card--place .card--link a {
+  text-decoration: underline var(--google-links-color);
+}
+
+.card--heading {
+  color: var(--text-default-color);
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 39px;
+}
+
+.card--timeline {
+  color: var(--text-default-color);
+  font-weight: bold;
+  font-size: 10.24px;
+  margin: 5px 0;
+}
+
+.card--description {
+  font-size: 10.24px;
 }

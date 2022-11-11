@@ -10,7 +10,7 @@ function Card() {
             <div className="description">
                 <div className="card--place">
                     <FaMapMarkerAlt className='card--icon'/>
-                    <h4 className="card--title">JAPAN</h4>
+                    <p className="card--title">JAPAN</p>
                     <a className="card--link">View on Google Map</a>
                 </div>
                 <h1 className='card--heading'>Mount Fuji</h1>
