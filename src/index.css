@@ -48,6 +48,9 @@ nav{
   width: 85%;
   margin: 35px auto;
   display: flex;
+  border-bottom: #F5F5F5 solid 1px;
+  padding: 10px;
+  height: 195px;
 }
 
 .card--image {
